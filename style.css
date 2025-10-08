@@ -1,7 +1,10 @@
 html{
     scroll-behavior: smooth;
 }
-
+.skip-link
+{
+  text-decoration: none;
+}
 body {
   font-family: 'Poppins', sans-serif;
   background-color: beige;
