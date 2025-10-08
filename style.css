@@ -53,14 +53,14 @@ nav a:hover {
     text-align: center;
     padding: 60px 20px;
     background-color: #e8f0fe;
-    border-bottom: 2px solid #ccc;
+    border: 2px solid #ccc;
 }
 
 /* Sections */
 section {
     padding: 40px 20px;
     max-width: 900px;
-    margin: auto;
+    
 }
 
 /* About image */
@@ -72,8 +72,7 @@ section {
 /* Table */
 table {
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    
 }
 
 th, td {
@@ -93,7 +92,6 @@ form {
     border: 2px solid #4caf50;
     border-radius: 10px;
     padding: 25px;
-    max-width: 500px;
     margin: 40px auto;
 }
 
@@ -140,7 +138,6 @@ footer {
 /* Divider line */
 hr {
     border: 0;
-    border-top: 2px solid #3cf70885;
     width: 100%;
     margin: 40px auto;
 }
