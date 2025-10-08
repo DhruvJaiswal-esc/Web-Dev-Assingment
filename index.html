@@ -1,97 +1,129 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Personal Portfolio Website</title>
+    <!-- Links to external CSS file for styling -->
     <link rel="stylesheet" href="style.CSS">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Importing Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  
+    <!-- Header section containing the website title and navigation bar -->
     <header>
         <h1>Dhruv Jaiswal</h1>
-        <nav><ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Project</a></li>
-            <li><a href="#contact">contact</a></li>
-        </ul></nav>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <!-- Main content of the webpage -->
     <main id="mainsection">
-    <section id="Hero">
-        <h2>Welcome to My portfolio</h2>
-        <p>Hello!My name is Dhruv Jaiswal,a passionate web developer and coder learning to make great projects and websites </p>
-    </section>
-    <hr width="device-width">
-    <section id="about">
-      <h2>About Me</h2>
-      <img src="rick.jpg" width="500px">
-      <p>
-        I am a front-end web developer with a focus on learning coding end enjoying participation in making websites and joining hackathons
-      </p>
-    </section>
-    <hr width="device-width">
-    <article>
+
+        <!-- Hero Section: Introduction and welcome text -->
+        <section id="Hero">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello! My name is Dhruv Jaiswal, a passionate web developer and coder learning to make great projects and websites.</p>
+        </section>
+
+        <hr width="device-width">
+
+        <!-- About Section: Includes a personal description and image -->
+        <section id="about">
+            <h2>About Me</h2>
+            <!-- Profile image -->
+            <img src="rick.jpg" width="500px" alt="Dhruv Jaiswal Picture">
+            <p>
+                I am a front-end web developer with a focus on learning coding and enjoying participation in making websites and joining hackathons.
+            </p>
+        </section>
+
+        <hr width="device-width">
+
+        <!-- Projects Section: Showcases project list -->
+        <article id="projects">
             <h3>My Projects</h3>
-            <p><ul>
+            <ul>
                 <li>Recipe Book: List recipes with ingredients, steps, and images.</li>
-               <li>To-Do List App: Add, remove, and mark tasks as complete</li>
-               <li>Notes App: Save notes in localStorage with tags and search.</li>
-            </ul></p>
-          </article>
-          <hr width="device-width">
+                <li>To-Do List App: Add, remove, and mark tasks as complete.</li>
+                <li>Notes App: Save notes in localStorage with tags and search.</li>
+            </ul>
+        </article>
 
-      <h2>Technical Skills</h2>
-      <table border="1" cellspacing="0" cellpadding="5">
-        <thead>
-          <tr>
-            <th>Skill</th>
-            <th>Level</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML</td>
-            <td>Beginner</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>Beginner</td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td>learning</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>Beginner</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <hr width="device-width">
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        <hr width="device-width">
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        <!-- Skills Section: Displays technical skill levels in a table -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="1" cellspacing="0" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Learning</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea><br><br>
+        <hr width="device-width">
 
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
-    <footer>
-      All Rights reserved under Dhruv's Inc.2007-2025
-    </footer>
+        <!-- Contact Section: Form for visitors to send messages -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <!-- Name input -->
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
 
-  </main>
+                <!-- Email input -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
 
+                <!-- Message textarea -->
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea><br><br>
+
+                <!-- Submit button -->
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Footer section -->
+        <footer>
+            All Rights reserved under Dhruv's Inc. 2007-2025
+        </footer>
+    </main>
 </body>
 </html>
