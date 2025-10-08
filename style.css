@@ -1,138 +1,147 @@
-html{
+/* Smooth scrolling */
+html {
     scroll-behavior: smooth;
 }
-.skip-link
-{
-  text-decoration: none;
+
+/* Skip link */
+.skip-link {
+    text-decoration: none;
 }
+
+/* Body styles */
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: beige;
-  color:black;
-  line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+    color: black;
+    line-height: 1.6;
 }
+
+/* Header */
 header {
-  background-color: #07f72f;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: sticky;
-  top: 0;
-  z-index: 10;
+    background-color: #07f72f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
-
+/* Navigation */
 nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 nav a {
-  text-decoration: none;
-  color: white;
-  font-weight: 600;
-  padding: 8px 14px;
-  border-radius: 6px;
-  transition: background 0.3s;
-  background-color:green;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: background 0.3s;
+    background-color: green;
 }
 
 nav a:hover {
-  background-color: #4f5ad0;
+    background-color: #4f5ad0;
 }
 
-
+/* Hero section */
 #hero {
-  text-align: center;
-  padding: 60px 20px;
-  background-color: #e8f0fe;
-  border-bottom: 2px solid #ccc;
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e8f0fe;
+    border-bottom: 2px solid #ccc;
 }
 
-
+/* Sections */
 section {
-  padding: 40px 20px;
-  max-width: 900px;
-  margin: auto;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
-
+/* About image */
 #about img {
-  margin: 20px auto;
-  border-radius: 100px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin: 20px auto;
+    border-radius: 100px;
 }
 
-/* Table Styles */
+/* Table */
 table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
 th, td {
-  border: 1px solid #ccc;
-  padding: 10px;
-  text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
 }
 
 th {
-  background-color: #1ae847;
-  color: white;
+    background-color: #1ae847;
+    color: white;
 }
+
+/* Form */
 form {
-  background-color: #f0fdf4;           
-  border: 2px solid #4caf50;           
-  border-radius: 10px;
-  padding: 25px;
-  max-width: 500px;
-  margin: 40px auto;
-  font-family: 'Poppins', sans-serif;
+    background-color: #f0fdf4;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 500px;
+    margin: 40px auto;
 }
+
 form label {
-  font-weight: 600;
-  color: #2e7d32;                 
+    font-weight: 600;
+    color: #2e7d32;
 }
+
 form input[type="text"],
 form input[type="email"],
 form textarea {
-  width: 89%;
-  padding: 10px 14px;
-  border: 1.5px solid #81c784;      
-  border-radius: 6px;
-  font-size: 14px;
-  background-color: #25f50027;
-  transition: 0.3s;
+    width: 89%;
+    padding: 10px 14px;
+    border: 1.5px solid #81c784;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #25f50027;
+    transition: 0.3s;
 }
 
+/* Button */
 button {
-  background-color: #1ae82fb7;
-  color: white;
-  border: solid rgba(119, 212, 13, 0.744);
-  border-radius: 15px;
-  font-size: 16px;
-  transition: 0.6s;
+    background-color: #1ae82fb7;
+    color: white;
+    border: solid rgba(119, 212, 13, 0.744);
+    border-radius: 15px;
+    font-size: 16px;
+    transition: 0.6s;
 }
 
 button:hover {
-  background-color: #0adc23;
+    background-color: #0adc23;
 }
 
-
+/* Footer */
 footer {
-  text-align: center;
-  background-color: #20f304;
-  color: white;
-  padding: 15px 0;
-  margin: 40px;
+    text-align: center;
+    background-color: #20f304;
+    color: white;
+    padding: 15px 0;
+    margin: 40px;
 }
 
-
+/* Divider line */
 hr {
-  border: 0;
-  border-top: 2px solid #3cf70885;
-  width:100%;
-  margin: 40px auto;
+    border: 0;
+    border-top: 2px solid #3cf70885;
+    width: 100%;
+    margin: 40px auto;
 }
